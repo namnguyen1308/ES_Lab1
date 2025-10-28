@@ -177,9 +177,8 @@ void SystemClock_Config(void) {
 
 /* USER CODE BEGIN 4 */
 void init_system(void) {
-	timer2_init();
-	timer2_set(50);
-
+	timer3_init();
+	
 	led_7seg_init();
 }
 
